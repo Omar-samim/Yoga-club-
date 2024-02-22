@@ -1,0 +1,368 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    background-image: url(img/yoga-header.jpg);
+    background-size: cover;
+    width: 100%; 
+    height: 90vh; 
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 8rem; 
+    width: 80%; 
+    margin: auto;
+}
+hr{
+    width: 70%;
+    margin: auto;
+    /* background-color: gray;  */
+}
+nav a{
+    text-decoration: none;
+    font-size: 1.5rem; 
+    color: #fff; 
+}
+nav a:hover{
+    color: rgb(239, 92, 215)
+}
+header .content{
+    text-align: center;
+    margin-top: 10rem;
+    color: #fff; 
+}
+header .content h1{
+    font-size: 3rem; 
+    font-family: sans-serif;
+}
+header .content p{
+    font-size: 1.09rem; 
+    margin: 10px 0; 
+}
+header .content button{
+    padding: 20px 40px; 
+    margin-top: 10px; 
+    color: #fff; 
+    background-color:rgb(239, 92, 215); 
+    border: none; 
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 1.3rem; 
+}
+header .content button:hover{
+    color: rgb(62, 62, 188); 
+    cursor: pointer;
+}
+
+
+/* About section */
+.about{
+    height: 70vh;
+}
+.about .about-head{
+    text-align: center;
+    margin-top: 3rem; 
+}
+.about .about-head h1{
+    color: rgb(62, 62, 188);
+    margin: 5px; 
+}
+.about .about-head p{
+    color: #777; 
+}
+.about .about-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about .about-icon .box{
+    text-align: center;
+    padding: 30px; 
+    margin: 3rem 8px; 
+}
+.about .about-icon .box h2{
+    font-size: 1.8rem; 
+    margin: 8px 0; 
+}
+.about .about-icon .box p{
+    color: #777;
+}
+
+
+/* class section */
+
+.class{
+    background-color: rgb(234, 234, 234);
+    width: 100%; 
+    height: 81vh; 
+    display: flex;
+    justify-content: space-between  ;
+    align-items: center;
+    margin-bottom: 3rem; 
+}
+.class-img img{
+    width: 80%; 
+    height: 80vh;
+    justify-items: flex-end;
+}
+.class .class-content{
+    margin-left: 5rem; 
+}
+.class .class-content h1{
+    color: dodgerblue; 
+    font-size: 2.5rem; 
+}
+.class .class-content p{
+    margin: 10px 0 ; 
+    line-height: 1.5rem;
+    font-size: 1.2rem; 
+}
+.class .class-content li{
+    list-style-type: square;
+    list-style-position: inside;
+    font-size: 1.1rem; 
+    line-height: 1.5rem;
+}
+
+
+/* Advantage section */
+.advantage-section{
+    background-image: url(img/advantages-of-yoga.jpg);
+    background-size: cover; 
+    width: 100%; 
+    height: 150vh;
+}
+.advantage-section .advantage-title h1{
+    text-align: center;
+    font-size: 2rem; 
+    color: dodgerblue;
+}
+.advantage-box {
+    width: 30%;
+}
+.advantage-section p{
+    color: #777; 
+}
+.advantage-section .advantage-title{
+    margin-bottom: 10rem; 
+}
+
+.advantage-section .advantage-title p{
+    text-align: center;
+    margin-top: 10px; 
+}
+.addvantage-row{
+    display: flex;
+    justify-content: space-around;
+}
+.addvantage-row .advantage-box .box-right{
+    text-align: right;
+}
+.addvantage-row .advantage-box .box-center{
+    text-align: center;
+}
+.addvantage-row .advantage-box .box-left{
+    text-align: left;
+}
+.advantage-section .advantage-detail{
+    width: 100%; 
+    margin-bottom: 5rem; 
+}
+/* end of yoga advantages */
+
+
+
+
+/* class section start */
+.class-section1{
+    padding: 3rem 2rem; 
+    text-align: center;
+    height: 80vh;
+    background-color: rgb(244, 243, 243); 
+}
+.class-section p{
+    padding: 10px 0; 
+    color: #777; 
+    line-height: 1.5rem;
+}
+.class-box{
+    margin: 5rem 1rem;
+}
+.class-row{
+    display: flex;
+    margin-left: 9rem; 
+    width: 80%; 
+
+
+}
+.class-box img{
+    width: 60%;
+    margin-bottom: 15px;
+    border-radius: 50%;
+}
+
+
+/* form section start */
+.form-section{
+
+}
+.form{
+    margin: auto; 
+    padding: 60px 15px; 
+    width: 70%; 
+
+}
+.form h1, p{
+    text-align: center; 
+    margin-bottom: 10px; 
+}
+.col1{
+    padding: 30px 20px; 
+    margin: 50px 20px; 
+    color: #777;
+}
+.col-form{
+    border: 1px solid black; 
+    border-radius: 3px;
+    width: 50%; 
+    color: #777;
+
+}
+.col1 button{
+    width: 98%;
+    border: none; 
+    padding: 15px; 
+    background-color: dodgerblue; 
+    font-size: 25px; 
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff; 
+
+}
+.row{
+    display: flex;
+    align-items: centers;
+    justify-content: center;
+}
+.col1 h2{
+    text-align: center;
+    margin-bottom: 10px; 
+    color: dodgerblue; 
+}
+.col-form p{
+    margin-bottom: 40px; 
+    line-height: 20px;
+}
+.col1 .form-input{
+    padding: 7px 10px; 
+    margin: 5px; 
+    width: 45%; 
+}
+.col1 .form-textera{
+    padding: 7px 10px; 
+    margin: 5px; 
+    width: 95%; 
+}
+.col1 .weekdays{
+    margin-top: 30px; 
+    margin-bottom: 60px;
+}
+.schedual p{
+    margin: 15px; 
+
+}
+
+
+/* Exprest section */
+.experts{
+    height: 75vh; 
+    background-color: rgb(237, 234, 234);
+}
+.experts h1, p{
+    color: #6b6b6b; 
+}
+.experts h1{
+    text-align: center;
+    color: dodgerblue; 
+    padding: 50px 0 20px 0; 
+    font-size: 30px; 
+}
+.expert-img{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+.expert-detail{
+    width: 13%; 
+    text-align: center;
+    margin: 40px; 
+}
+.expert-detail h3{
+    margin: 15px;
+    font-size: 18px;  
+}
+.expert-detail h3:hover{
+    color:rgb(239, 92, 215); 
+    cursor: pointer;
+}
+.expert-detail img{
+    width: 100%; 
+    border-radius: 50%;
+}
+
+
+
+/* contact us section */
+.contac-us{
+    height: 40vh;
+    text-align: center; 
+}
+.contac-us h1{
+    color: dodgerblue; 
+    margin-top: 40px; 
+    margin-bottom: 20px; 
+}
+.contac-us button{
+    padding: 20px 60px; 
+    margin-top: 40px; 
+    margin-bottom: 20px; 
+    background-color: dodgerblue; 
+    border: none; 
+    outline: none; 
+    border-radius: 3px;
+    font-size: 20px; 
+    font-weight: 600;
+    color: #fff; 
+}
+.contac-us button:hover{
+    cursor: pointer;
+    color:rgb(239, 92, 215)
+}
+
+.contac-us .call{
+    display: inline;
+}
+.contac-us a{
+    font-size: 20px; 
+    text-decoration: none;
+    color: black; 
+    font-weight: 600;
+}
+.contac-us a:hover{
+    color:rgb(239, 92, 215); 
+}
+footer{
+    padding: 50px; 
+    background-color: dodgerblue;
+}
+footer p{
+    color:rgb(237, 234, 234); 
+}
